@@ -1,4 +1,7 @@
 package library.models;
 
-public class LibraryItem {
+public abstract class LibraryItem {
+    private String itemId;
+
+    public abstract String getItemType();
 }
